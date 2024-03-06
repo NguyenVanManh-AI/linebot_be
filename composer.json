@@ -15,6 +15,7 @@
         "laravel/pint": "^1.13",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "2.7",
+        "predis/predis": "^2.2",
         "socialiteproviders/github": "4.1",
         "socialiteproviders/gitlab": "4.1",
         "socialiteproviders/google": "4.1",
