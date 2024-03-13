@@ -183,7 +183,7 @@ return [
         Brian2694\Toastr\ToastrServiceProvider::class,
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
         CloudinaryLabs\CloudinaryLaravel\CloudinaryServiceProvider::class,
-
+        Aws\Laravel\AwsServiceProvider::class,
     ],
 
     /*
@@ -201,6 +201,7 @@ return [
         'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
         'Toastr' => Brian2694\Toastr\Facades\Toastr::class,
         'Cloudinary' => CloudinaryLabs\CloudinaryLaravel\Facades\Cloudinary::class,
+        'AWS' => Aws\Laravel\AwsFacade::class,
     ])->toArray(),
 
 ];
